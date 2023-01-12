@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company.TestManager</OriginalElement>
+  <nodes>
+    <node x="-93.0" y="912.0">com.company.TestManager.TestAPIs._1SignUp.SignUpTest</node>
+    <node x="333.5905172413793" y="774.0">com.company.TestManager.TestAPIs._1SignUp.UnitTests.SignUpUnitTest2</node>
+    <node x="570.3405172413793" y="378.0">com.company.TestManager.UnitTest</node>
+    <node x="121.5905172413793" y="774.0">com.company.TestManager.TestAPIs._1SignUp.UnitTests.SignUpUnitTest1</node>
+    <node x="471.875" y="923.0">com.company.TestManager.TestAPIs._2Login.LoginTest</node>
+    <node x="1007.5905172413793" y="378.0">com.company.TestManager.Connection</node>
+    <node x="558.625" y="1060.0">com.company.BaseURL</node>
+    <node x="311.625" y="1071.5">com.company.TestManager.TestManager</node>
+    <node x="577.8405172413793" y="-70.5">com.company.TestManager.Assertion</node>
+    <node x="761.5905172413793" y="774.0">com.company.TestManager.TestAPIs._2Login.UnitTests.LoginUnitTest2</node>
+    <node x="-37.20258620689651" y="-104.0">com.company.TestManager.Test</node>
+    <node x="964.5905172413793" y="774.0">com.company.TestManager.TestAPIs._2Login.UnitTests.LoginUnitTest1</node>
+    <node x="426.5" y="1219.0">com.company.App</node>
+    <node x="1165.5905172413793" y="774.0">com.company.TestManager.TestAPIs._2Login.UnitTests.LoginUnitTest3</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.TestManager.TestAPIs._1SignUp.UnitTests.SignUpUnitTest2" target="com.company.TestManager.UnitTest" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="430.5905172413793" y="747.0" />
+      <point x="748.8405172413793" y="747.0" />
+      <point x="0.0" y="171.0" />
+    </edge>
+    <edge source="com.company.TestManager.UnitTest" target="com.company.TestManager.Test" relationship="TO_ONE">
+      <point x="-89.25" y="-171.0" />
+      <point x="659.5905172413793" y="357.0" />
+      <point x="743.8405172413793" y="357.0" />
+      <point x="743.8405172413793" y="347.0" />
+      <point x="265.7974137931035" y="347.0" />
+      <point x="101.0" y="215.0" />
+    </edge>
+    <edge source="com.company.TestManager.TestAPIs._2Login.LoginTest" target="com.company.TestManager.Test" relationship="GENERALIZATION">
+      <point x="-57.0" y="-38.0" />
+      <point x="528.875" y="881.0" />
+      <point x="111.0905172413793" y="881.0" />
+      <point x="111.0905172413793" y="357.0" />
+      <point x="-68.0344827586207" y="357.0" />
+      <point x="-68.0344827586207" y="347.0" />
+      <point x="63.79741379310349" y="347.0" />
+      <point x="-101.0" y="215.0" />
+    </edge>
+    <edge source="com.company.TestManager.Test" target="com.company.TestManager.UnitTest" relationship="TO_MANY">
+      <point x="101.0" y="215.0" />
+      <point x="265.7974137931035" y="347.0" />
+      <point x="743.8405172413793" y="347.0" />
+      <point x="743.8405172413793" y="357.0" />
+      <point x="659.5905172413793" y="357.0" />
+      <point x="-89.25" y="-171.0" />
+    </edge>
+    <edge source="com.company.TestManager.TestAPIs._2Login.UnitTests.LoginUnitTest3" target="com.company.TestManager.UnitTest" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="1257.0905172413793" y="747.0" />
+      <point x="748.8405172413793" y="747.0" />
+      <point x="0.0" y="171.0" />
+    </edge>
+    <edge source="com.company.TestManager.TestAPIs._2Login.UnitTests.LoginUnitTest2" target="com.company.TestManager.UnitTest" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="853.0905172413793" y="747.0" />
+      <point x="748.8405172413793" y="747.0" />
+      <point x="0.0" y="171.0" />
+    </edge>
+    <edge source="com.company.TestManager.TestAPIs._2Login.UnitTests.LoginUnitTest1" target="com.company.TestManager.UnitTest" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="1055.0905172413793" y="747.0" />
+      <point x="748.8405172413793" y="747.0" />
+      <point x="0.0" y="171.0" />
+    </edge>
+    <edge source="com.company.TestManager.TestAPIs._1SignUp.UnitTests.SignUpUnitTest1" target="com.company.TestManager.UnitTest" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.0" />
+      <point x="217.5905172413793" y="747.0" />
+      <point x="748.8405172413793" y="747.0" />
+      <point x="0.0" y="171.0" />
+    </edge>
+    <edge source="com.company.TestManager.TestAPIs._1SignUp.SignUpTest" target="com.company.TestManager.Test" relationship="GENERALIZATION">
+      <point x="-93.74999999999994" y="-49.0" />
+      <point x="0.7500000000000568" y="891.0" />
+      <point x="-73.0344827586207" y="891.0" />
+      <point x="-73.0344827586207" y="357.0" />
+      <point x="-68.0344827586207" y="357.0" />
+      <point x="-68.0344827586207" y="347.0" />
+      <point x="63.79741379310349" y="347.0" />
+      <point x="-101.0" y="215.0" />
+    </edge>
+    <edge source="com.company.TestManager.TestAPIs._2Login.LoginTest" target="com.company.TestManager.TestAPIs._2Login.UnitTests.LoginUnitTest3" relationship="CREATE">
+      <point x="57.0" y="-38.0" />
+      <point x="642.875" y="891.0" />
+      <point x="1055.0905172413793" y="891.0" />
+      <point x="1055.0905172413793" y="881.0" />
+      <point x="1257.0905172413793" y="881.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.company.TestManager.TestManager" target="com.company.TestManager.TestAPIs._1SignUp.SignUpTest" relationship="CREATE">
+      <point x="0.0" y="-38.0" />
+      <point x="425.125" y="1035.0" />
+      <point x="94.5" y="1035.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="com.company.App" target="com.company.BaseURL" relationship="CREATE">
+      <point x="-46.25" y="-104.0" />
+      <point x="472.75" y="1199.0" />
+      <point x="514.0" y="1199.0" />
+      <point x="514.0" y="1189.0" />
+      <point x="595.625" y="1189.0" />
+      <point x="-37.0" y="49.5" />
+    </edge>
+    <edge source="com.company.TestManager.TestAPIs._2Login.LoginTest" target="com.company.TestManager.TestAPIs._2Login.UnitTests.LoginUnitTest2" relationship="CREATE">
+      <point x="57.0" y="-38.0" />
+      <point x="642.875" y="891.0" />
+      <point x="1055.0905172413793" y="891.0" />
+      <point x="1055.0905172413793" y="881.0" />
+      <point x="853.0905172413793" y="881.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.company.TestManager.TestAPIs._2Login.LoginTest" target="com.company.TestManager.TestAPIs._2Login.UnitTests.LoginUnitTest1" relationship="CREATE">
+      <point x="57.0" y="-38.0" />
+      <point x="642.875" y="891.0" />
+      <point x="1055.0905172413793" y="891.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.company.App" target="com.company.TestManager.TestManager" relationship="CREATE">
+      <point x="-46.25" y="-104.0" />
+      <point x="472.75" y="1199.0" />
+      <point x="514.0" y="1199.0" />
+      <point x="514.0" y="1189.0" />
+      <point x="368.375" y="1189.0" />
+      <point x="-56.75" y="38.0" />
+    </edge>
+    <edge source="com.company.App" target="com.company.TestManager.TestManager" relationship="TO_ONE">
+      <point x="46.25" y="-104.0" />
+      <point x="565.25" y="1199.0" />
+      <point x="524.0" y="1199.0" />
+      <point x="524.0" y="1179.0" />
+      <point x="481.875" y="1179.0" />
+      <point x="56.75" y="38.0" />
+    </edge>
+    <edge source="com.company.App" target="com.company.BaseURL" relationship="TO_ONE">
+      <point x="46.25" y="-104.0" />
+      <point x="565.25" y="1199.0" />
+      <point x="524.0" y="1199.0" />
+      <point x="524.0" y="1179.0" />
+      <point x="669.625" y="1179.0" />
+      <point x="37.0" y="49.5" />
+    </edge>
+    <edge source="com.company.TestManager.UnitTest" target="com.company.TestManager.Assertion" relationship="CREATE">
+      <point x="89.25" y="-171.0" />
+      <point x="838.0905172413793" y="357.0" />
+      <point x="834.3405172413793" y="357.0" />
+      <point x="85.5" y="181.5" />
+    </edge>
+    <edge source="com.company.TestManager.TestManager" target="com.company.TestManager.TestAPIs._2Login.LoginTest" relationship="CREATE">
+      <point x="0.0" y="-38.0" />
+      <point x="425.125" y="1035.0" />
+      <point x="585.875" y="1035.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.company.TestManager.TestAPIs._1SignUp.SignUpTest" target="com.company.TestManager.TestAPIs._1SignUp.UnitTests.SignUpUnitTest2" relationship="CREATE">
+      <point x="93.75000000000006" y="-49.0" />
+      <point x="188.25000000000006" y="891.0" />
+      <point x="431.0905172413793" y="891.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.company.TestManager.TestAPIs._1SignUp.SignUpTest" target="com.company.TestManager.TestAPIs._1SignUp.UnitTests.SignUpUnitTest1" relationship="CREATE">
+      <point x="93.75000000000006" y="-49.0" />
+      <point x="188.25000000000006" y="891.0" />
+      <point x="431.0905172413793" y="891.0" />
+      <point x="431.0905172413793" y="871.0" />
+      <point x="217.5905172413793" y="871.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="com.company.TestManager.UnitTest" target="com.company.TestManager.Assertion" relationship="TO_ONE">
+      <point x="-89.25" y="-171.0" />
+      <point x="659.5905172413793" y="357.0" />
+      <point x="743.8405172413793" y="357.0" />
+      <point x="743.8405172413793" y="347.0" />
+      <point x="663.3405172413793" y="347.0" />
+      <point x="-85.5" y="181.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5963894261766602" showDependencies="true" x="722.9291891891893" y="654.7929729729739" />
+  <SelectedNodes>
+    <node>com.company.TestManager.TestAPIs._2Login.UnitTests.LoginUnitTest3</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
